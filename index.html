@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>LEETSTATS TRACKER</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h1>LEETSTATS TRACKER</h1>
+
+      <div class="user_container">
+        <h1>Enter username :</h1>
+        <div class="user_input_container">
+          <input
+            id="user_input"
+            type="text"
+            placeholder="Enter username here"
+            required
+          />
+          <button id="search_btn">Search</button>
+        </div>
+      </div>
+
+      <div class="stats_container">
+        <div class="progress">
+          <div class="progress_item">
+            <div class="easy_progress circle">
+              <span id="easy_label"></span>
+              Easy
+            </div>
+          </div>
+
+          <div class="progress_item">
+            <div class="medium_progress circle">
+              <span id="medium_label"></span>
+              Medium
+            </div>
+          </div>
+
+          <div class="progress_item">
+            <div class="hard_progress circle">
+              <span id="hard_label"></span>
+              Hard
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="stats_cards"></div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
